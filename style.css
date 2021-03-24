@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.itens {
+    display: flex;
+    justify-content: space-between;
+}
+
+.segundacor {
+    background-color: blueviolet;
+    border: 10px rgb(248, 27, 27);
+    padding-left: 50px;
+}
+
+li {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    display: inline;
+    float: left;
+    margin: 20px;
+    margin-top: 20px;
+    padding: 5px;
+    width: 70px;
+    padding-left: 42px;
+    background-color: aliceblue;
+}
+
+li:hover {
+    background: black;
+    color: white;
+}
+
+.adote {
+    display: flex;
+    margin: 10px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.adote:hover {
+    color: white;
+    font-size: 30px;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: deepskyblue;
+}
