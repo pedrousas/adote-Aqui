@@ -1,54 +1,137 @@
-body {
-    margin: 0;
-    padding: 0;
-    border: 0;
+    @import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Ranchers&display=swap');
+    body {
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+    
+    .itens {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .segundacor {
+        background-color: blueviolet;
+    }
+    
+    ul {
+        display: flex;
+        max-height: 38px;
+    }
+    
+    li {
+        display: inline;
+        margin: 18px;
+        margin-top: 1px;
+        width: 70px;
+        height: auto;
+        padding-left: 42px;
+        background-color: rgba(225, 239, 243, 0.952);
+        border-radius: 2px;
+        font-family: 'Indie Flower', cursive;
+    }
+    
+    li:hover {
+        background: deepskyblue;
+        color: white;
+        transition: background 2s;
+    }
+    
+    .adote {
+        display: flex;
+        margin: 10px;
+        font-size: 25px;
+        margin-top: 8px;
+        font-family: 'Ranchers', cursive;
+    }
+    
+    .adote:hover {
+        color: rgb(255, 248, 248);
+        transition: color 1s;
+    }
+    
+    header {
+        display: flex;
+        width: 90%;
+        justify-content: space-between;
+        background-color: deepskyblue;
+        max-width: 100%;
+        height: 40px;
+        margin-left: 75px;
+    }
+    
+    .gato1 {
+        height: 400px;
+        width: 300px;
+        border-radius: 5px;
+    }
+    
+    .gato2 {
+        hheight: 400px;
+        width: 300px;
+        border-radius: 5px;
+    }
+    
+    .gato3 {
+        height: 400px;
+        width: 300px;
+        border-radius: 5px;
+    }
+    
+    .dog1 {
+        height: 400px;
+        width: 300px;
+        border-radius: 5px;
+    }
+    
+    .dog2 {
+        height: 400px;
+        width: 300px;
+        border-radius: 5px;
+    }
+    
+    .dog3 {
+        height: 400px;
+        width: 300px;
+        border-radius: 5px;
+    }
+    
+    .container {
+        display: inline-block;
+        margin-top: 20px;
+    }
+    
+    @media (max-width: 850px) {
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 15px;
+        }
+    }
+    
+    @media (max-width: 200px) {}
+    
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 15px;
+    }
 }
-
-.itens {
-    display: flex;
-    justify-content: space-between;
+@media (max-width: 650px) {
+    .adote {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 5px;
+    }
 }
-
-.segundacor {
-    background-color: blueviolet;
-    border: 10px rgb(248, 27, 27);
-    padding-left: 50px;
-}
-
-li {
-    flex-grow: 1;
-    display: flex;
-    align-items: center;
-    display: inline;
-    float: left;
-    margin: 20px;
-    margin-top: 20px;
-    padding: 5px;
-    width: 70px;
-    padding-left: 42px;
-    background-color: aliceblue;
-}
-
-li:hover {
-    background: black;
-    color: white;
-}
-
-.adote {
-    display: flex;
-    margin: 10px;
-    font-size: 25px;
-    margin-top: 20px;
-}
-
-.adote:hover {
-    color: white;
-    font-size: 30px;
-}
-
-header {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    background-color: deepskyblue;
-}
+@media (max-width: 400px) {
+    .adote {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 5px;
+    }
