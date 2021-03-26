@@ -1,64 +1,65 @@
     @import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Ranchers&display=swap');
+    * {
+        padding: 0 auto;
+        padding-bottom: 0%;
+    }
+    
     body {
         margin: 0;
         padding: 0;
         border: 0;
     }
     
-    .itens {
-        display: flex;
-        justify-content: space-between;
+    nav {
+        background-color: deepskyblue;
+        height: 80px;
+        width: 100%;
+    }
+    /* Estilização da logo */
+    
+    label.logo {
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+        padding: 0 60px;
+        line-height: 60px;
+        font-family: 'Ranchers', cursive;
+        line-height: 75px;
+    }
+    /* nav ul chama toda a lista */
+    
+    nav ul {
+        float: right;
+        /* Responsável por flutuar a lista até a direita da nav */
+        margin-right: 30px;
     }
     
-    .segundacor {
-        background-color: blueviolet;
+    nav ul li {
+        display: inline-block;
+        /* Deixar a lista horizoltal e linear */
+        line-height: 60px;
+        margin: 0 30px;
+    }
+    /* Estilização do texto das li */
+    
+    nav ul li a {
+        display: block;
+        /* Quando este display é aplicado na tag a (texto da lista), ele tem a função de selecionar todo o espaço do topo até o fundo da nav quando o  mouse passa em cima de algum desses itens */
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        padding-right: 3px;
+        padding-left: 3px;
+        font-family: 'Indie Flower';
     }
     
-    ul {
-        display: flex;
-        max-height: 38px;
-    }
-    
-    li {
-        display: inline;
-        margin: 18px;
-        margin-top: 1px;
-        width: 70px;
-        height: auto;
-        padding-left: 42px;
-        background-color: rgba(225, 239, 243, 0.952);
-        border-radius: 2px;
-        font-family: 'Indie Flower', cursive;
-    }
-    
-    li:hover {
-        background: deepskyblue;
+    label.logo:hover {
         color: white;
         transition: background 2s;
     }
     
-    .adote {
-        display: flex;
-        margin: 10px;
-        font-size: 25px;
-        margin-top: 8px;
-        font-family: 'Ranchers', cursive;
-    }
-    
-    .adote:hover {
-        color: rgb(255, 248, 248);
-        transition: color 1s;
-    }
-    
-    header {
-        display: flex;
-        width: 90%;
-        justify-content: space-between;
-        background-color: deepskyblue;
-        max-width: 100%;
-        height: 40px;
-        margin-left: 75px;
+    a:hover {
+        color: rgb(255, 255, 255);
+        transition: background 2s;
     }
     
     .gato1 {
@@ -99,7 +100,23 @@
     
     .container {
         display: inline-block;
-        margin-top: 20px;
+        margin: 0 auto;
+    }
+    
+    footer {
+        background-color: deepskyblue;
+        text-align: center;
+    }
+    
+    .gatocopy {
+        margin: none;
+    }
+    
+    .copyright {
+        color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 0 auto;
+        padding-bottom: 10px;
     }
     
     @media (max-width: 850px) {
