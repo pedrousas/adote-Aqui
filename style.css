@@ -1,160 +1,156 @@
-    @import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Ranchers&display=swap');
-    * {
-        padding: 0 auto;
-        padding-bottom: 0%;
-    }
-    
-    body {
-        margin: 0;
-        padding: 0;
-        border: 0;
-    }
-    
-    nav {
-        background-color: deepskyblue;
-        height: 80px;
-        width: 100%;
-    }
-    /* Estilização da logo */
-    
-    label.logo {
-        color: rgb(0, 0, 0);
-        font-size: 30px;
-        padding: 0 60px;
-        line-height: 60px;
-        font-family: 'Ranchers', cursive;
-        line-height: 75px;
-    }
-    /* nav ul chama toda a lista */
-    
-    nav ul {
-        float: right;
-        /* Responsável por flutuar a lista até a direita da nav */
-        margin-right: 30px;
-    }
-    
-    nav ul li {
-        display: inline-block;
-        /* Deixar a lista horizoltal e linear */
-        line-height: 60px;
-        margin: 0 30px;
-    }
-    /* Estilização do texto das li */
-    
-    nav ul li a {
-        display: block;
-        /* Quando este display é aplicado na tag a (texto da lista), ele tem a função de selecionar todo o espaço do topo até o fundo da nav quando o  mouse passa em cima de algum desses itens */
-        color: rgb(0, 0, 0);
-        font-size: 20px;
-        padding-right: 3px;
-        padding-left: 3px;
-        font-family: 'Indie Flower';
-    }
-    
-    label.logo:hover {
-        color: white;
-        transition: background 2s;
-    }
-    
-    a:hover {
-        color: rgb(255, 255, 255);
-        transition: background 2s;
-    }
-    
-    .gato1 {
-        height: 400px;
-        width: 300px;
-        border-radius: 5px;
-        margin: 5px;
-    }
-    
-    .gato2 {
-        hheight: 400px;
-        width: 300px;
-        border-radius: 5px;
-        margin: 5px;
-    }
-    
-    .gato3 {
-        height: 400px;
-        width: 300px;
-        border-radius: 5px;
-        margin: 5px;
-    }
-    
-    .dog1 {
-        height: 400px;
-        width: 300px;
-        border-radius: 5px;
-        margin: 5px;
-    }
-    
-    .dog2 {
-        height: 400px;
-        width: 300px;
-        border-radius: 5px;
-        margin: 5px;
-    }
-    
-    .dog3 {
-        height: 400px;
-        width: 300px;
-        border-radius: 5px;
-        margin: 5px;
-    }
-    
-    .container {
-        display: inline-block;
-        margin: 0 auto;
-    }
-    
-    footer {
-        background-color: deepskyblue;
-        text-align: center;
-    }
-    
-    .gatocopy {
-        margin: none;
-    }
-    
-    .copyright {
-        color: black;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        margin: 0 auto;
-        padding-bottom: 10px;
-    }
-    
-    @media (max-width: 850px) {
-        .container {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            margin-top: 15px;
-        }
-    }
-    
-    @media (max-width: 200px) {}
-    
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Ranchers&display=swap');
+* {
+    padding: 0 auto;
+    padding-bottom: 0%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+nav {
+    background-color: deepskyblue;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    padding: 0 60px;
+    line-height: 60px;
+    font-family: 'Ranchers', cursive;
+    line-height: 75px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 30px;
+}
+
+nav ul li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding-right: 3px;
+    padding-left: 3px;
+    font-family: 'Indie Flower';
+}
+
+label.logo:hover {
+    color: white;
+    transition: background 2s;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+    transition: background 2s;
+}
+
+.gato1 {
+    height: 400px;
+    width: 300px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.gato2 {
+    hheight: 400px;
+    width: 300px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.gato3 {
+    height: 400px;
+    width: 300px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.dog1 {
+    height: 400px;
+    width: 300px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.dog2 {
+    height: 400px;
+    width: 300px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.dog3 {
+    height: 400px;
+    width: 300px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.container {
+    display: inline-block;
+    margin: 0 250px;
+    align-items: center;
+}
+
+footer {
+    background-color: deepskyblue;
+    text-align: center;
+}
+
+.gatocopy {
+    margin: none;
+}
+
+.copyright {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+@media (max-width: 1300px) {
     .container {
         display: flex;
         justify-content: center;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         margin-top: 15px;
     }
 }
-@media (max-width: 650px) {
-    .adote {
+
+@media (max-width: 700px) {
+    .container {
         display: flex;
         justify-content: center;
-        flex-wrap: wrap;
-        margin-top: 5px;
+        flex-wrap: nowrap;
+        margin-top: 15px;
     }
 }
-@media (max-width: 400px) {
-    .adote {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        margin-top: 5px;
+
+@media (max-width: 300px) {
+    .container {
+        display: block;
+        flex-wrap: nowrap;
+        margin-top: 15px;
+        margin-left: 0;
     }
+}
+
+
+}
+@media (max-width: 875px) {
+    ul {
+        display: none;
+    }
+}
